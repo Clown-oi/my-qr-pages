@@ -1,5 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head><meta charset="UTF-8"><title>李正宇</title></head>
-<body><h1>李正宇是我儿</h1></body>
+<head>
+    <meta charset="UTF-8">
+    <!-- 下面这一行非常重要，它能让网页按手机屏幕宽度自动缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李正宇</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;     /* 垂直居中 */
+            height: 100vh;           /* 撑满整屏高度 */
+            margin: 0;
+            background-color: #f7f7f7; /* 浅灰背景，便于阅读 */
+        }
+        .content {
+            font-size: 12vw;         /* 字体大小跟随屏幕宽度自动缩放 */
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">李正宇是我儿</div>
+</body>
 </html>
